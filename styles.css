@@ -1,2 +1,33 @@
+.green{
+	background-color: green;
+	width: 140px;
+	height: 140px;
+	font-size: 30px;
+}
+.red{
+	background-color: red;
+	width: 140px;
+	height: 140px;
+	font-size: 30px;
+}
+.blue{
+	background-color: blue;
+	width: 140px;
+	height: 140px;
+	font-size: 30px;
+}
 
-/* Your CSS Code here. */
+.space-between {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: start;
+	margin-bottom: 20px
+}
+
+.flex-wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	column-gap: 2px;
+}
